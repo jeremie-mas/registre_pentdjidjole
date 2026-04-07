@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { supabase, getFideles, signIn, signOut, getSession, deleteFidele } from './lib/supabase'
 import { exportCSV, exportXLSX } from './utils/exports'
 
-import './app.css'
+import './App.css'
 
 import LoginPage      from './LoginPage'
 import Toast          from './components/Toast'
